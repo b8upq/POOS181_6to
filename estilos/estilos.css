@@ -1,24 +1,54 @@
 body {
-    background: #d0fbfb;
+    background:  #1a1a1a;
 }
 
-.panel {
-    background: #b3ffff;
+h1{
+    color: white;
+}
+
+.container {
     display: flex;
-    position: relative;
-    width: 600px;
-    height: 200px;
-    padding: 200px;
-    margin: 0 auto; /* Establece márgenes automáticos para centrar horizontalmente */
-    top: 50%; /* Coloca el panel a mitad de la página verticalmente */
-    transform: translateY(25%);
-    text-align: right;
-}
+    justify-content: center;
+    align-items: center; /*sirve para alinear todo lo que este dentro de el*/
+    height: 100vh;
+  }
+  
+  .centrado {
+    text-align: center;
+  }
 
-.imagenclase {
-    background: #fff;
-    flex: 1;
-    width: 60px;
-    height: 20px;
-    padding: 20px;
-}
+  form {
+    max-height: 700px; /* ajustar la altura */
+    padding: 80px;
+    border: 1px solid #262626;
+    border-radius: 10px; /*sirve para hacer los margenes mas curvos*/
+    background-color: #333333;
+    display: flex; /*sirve para que el diseño de la pagiansea flexible "Flexbox"*/
+    flex-direction: column; /*acomoda todo en forma de columna */
+    align-items: center;
+  }
+  
+  label, input, button {
+    display: block; /*establece los apartados como un bloque*/
+    width: 100%;  /*Sirve para ajustar el ancho de cada input*/
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #6699ff;
+    color: white;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
