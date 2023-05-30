@@ -11,7 +11,7 @@ body{
 
 .fila{
     background-color: #e6f7ff;
-    padding: 40px;
+    padding: 20px;
 }
 
 h1 {
@@ -42,4 +42,13 @@ nav a{
 nav li:hover {
     background-color: #66ccff;
 
+}
+
+/* Fin de la sintaxis para el desarrollo del header y nav de la pagina */
+
+
+aside{
+    width: 400px;
+    height: 773px;
+    background-color: whitesmoke;
 }
