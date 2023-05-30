@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:  #cceeff;
+}
+
+/* Comienza la sintaxis para el desarrollo del header y nav de la pagina */
+
+.fila{
+    background-color: #e6f7ff;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    background-color: #b3d9ff;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+}
+
+nav li:hover {
+    background-color: #66ccff;
+
+}
+
+/* Fin de la sintaxis para el desarrollo del header y nav de la pagina */
