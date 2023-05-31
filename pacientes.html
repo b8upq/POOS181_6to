@@ -10,19 +10,52 @@
 <body>
     
 <!--Sintaxis inicial para cada página-->
-<div class="fila">
-    <h1>Pacientes</h1>
-</div>
-<nav>
+    <div class="fila">
+        <center><img src="imagenes/gdmpng.png" class="imgheader"></center>
+    </div>
+    <nav>
     <ul class="panel">
         <li><a href="index.html">Panel Principal</a></li>
         <li><a href="ip.html">Información Personal</a></li>
+        <li><a>Pacientes</a></li>
         <li><a href="consultas.html">Consultas</a></li>
-      </ul>
+    </ul>
     </nav>
 
-<!--Fin de Sintaxis inicial para cada página-->   
+<!--Fin de Sintaxis inicial para cada página-->
+<h1>CRUD de Pacientes</h1>
+  
+<!-- Botón para agregar un nuevo paciente -->
+<button class="btn">Agregar Paciente</button>
+<button class="btn2">Buscar Paciente</button>
 
+<!-- Tabla de pacientes -->
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido Paterno</th>
+    <th>Apellido Materno</th>
+    <th>Fecha de nacimiento</th>
+    <th>Enfermedades crónicas</th>
+    <th>Alergias</th>
+    <th>Antecedentes Familiares</th>
+    <th>Acciones</th>
+  </tr>
+  <tr>
+    <td>Jesus Ambrosio</td>
+    <td>Almaguer</td>
+    <td>Cruz</td>
+    <td>23/04/2003</td>
+    <td>Primero Dios ninguna</td>
+    <td>Penisilina</td>
+    <td>Ejemplo1</td>
+    <td>
+      <button class="btn">Editar</button>
+      <button class="btn btn-danger">Eliminar</button>
+    </td>
+  </tr>
+  <!-- Más filas para otros pacientes -->
+</table>
 
 </body>
 </html>
