@@ -9,19 +9,50 @@
 </head>
 <body>
     
-    <!--Sintaxis inicial para cada página-->
-<div class="fila">
-    <h1>Consultas</h1>
-</div>
-<nav>
+<!--Sintaxis inicial para cada página-->
+    <div class="fila">
+        <center><img src="imagenes/gdmpng.png" class="imgheader"></center>
+    </div>
+    <nav>
     <ul class="panel">
         <li><a href="index.html">Panel Principal</a></li>
         <li><a href="ip.html">Información Personal</a></li>
         <li><a href="pacientes.html">Pacientes</a></li>
-      </ul>
+        <li><a>Consultas</a></li>
+    </ul>
     </nav>
 
-<!--Fin de Sintaxis inicial para cada página-->   
+<!--Fin de Sintaxis inicial para cada página-->
 
+
+<h1>Formulario de Consultas Médicas</h1>
+  
+<form>
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" required>
+
+  <label for="nombre">Apellido Paterno:</label>
+  <input type="text" id="ap" required>
+
+  <label for="nombre">Apellido Materno:</label>
+  <input type="text" id="am" required>
+
+  <label for="nombre">Fecha de nacimiento:</label>
+  <input type="text" id="fdn" required>
+
+  <label for="nombre">Enfermedades crónicas:</label>
+  <input type="text" id="ec" required>
+  
+  <label for="edad">Alergias:</label>
+  <input type="number" id="alergias" required>
+
+  <label for="nombre">Antecedentes Familiares:</label>
+  <input type="text" id="af" required>
+  
+  <label for="consulta">Consulta:</label>
+  <textarea id="consulta" rows="4" required></textarea>
+  
+  <input type="submit" value="Enviar Consulta">
+</form>
 </body>
 </html>
