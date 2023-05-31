@@ -51,21 +51,21 @@ nav li:hover {
 
 .Izquierda {
     width: 20%;
-    height: 754px;
+    height: 790px;
     background: white;
     float: left;
 }
 
 .Contenido {
     width: 60%;
-    height: 753px;
+    height: 790px;
     background: #cceeff;
     float: left;
 }
 
 .Derecha {
     width: 20%;
-    height: 754px;
+    height: 790px;
     background: white;
     float: left;
 }
