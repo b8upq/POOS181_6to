@@ -2,25 +2,32 @@ body{
     background: #201976;
 }
 
-.centro{
-    background: white;
-    padding-bottom: 30px;
-}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .centro {
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
 
 h1{
     text-align: center;
 }
 
-.arriba{
-    background-color: #201976;
-    padding-bottom: 160px;
-}
-
-
 form {
     max-width: 400px;
     margin: 0 auto;
-    text-align: center;
   }
   
-  
+  label, input{
+    display:block;
+    margin-bottom: 20px;
+  }
