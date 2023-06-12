@@ -1,0 +1,54 @@
+body {
+    background:  #1a1a1a;
+}
+
+h1{
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /*sirve para alinear todo lo que este dentro de el*/
+    height: 100vh;
+  }
+  
+  .centrado {
+    text-align: center;
+  }
+
+  form {
+    max-height: 700px; /* ajustar la altura */
+    padding: 80px;
+    border: 1px solid #262626;
+    border-radius: 10px; /*sirve para hacer los margenes mas curvos*/
+    background-color: #333333;
+    display: flex; /*sirve para que el diseño de la pagiansea flexible "Flexbox"*/
+    flex-direction: column; /*acomoda todo en forma de columna */
+    align-items: center;
+  }
+  
+  label, input, button {
+    display: block; /*establece los apartados como un bloque*/
+    width: 100%;  /*Sirve para ajustar el ancho de cada input*/
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #6699ff;
+    color: white;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
